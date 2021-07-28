@@ -1,0 +1,19 @@
+.root{
+
+}
+
+
+#bluePanel{
+
+    -fx-background-color : #4070EA ;
+}
+
+.heading{
+    -fx-font-size: 36;
+    -fx-text-fill: "white";
+}
+
+.text{
+    -fx-font-size: 13;
+    -fx-text-fill: "white";
+}
