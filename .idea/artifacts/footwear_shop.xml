@@ -4,7 +4,11 @@
     <root id="root">
       <element id="archive" name="footwear_shop.jar">
         <element id="module-output" name="footwear_shop" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/main/META-INF/MANIFEST.MF" />
+        </element>
       </element>
+      <element id="library" level="project" name="lib" />
     </root>
   </artifact>
 </component>

@@ -3,9 +3,10 @@
 }
 
 
-#bluePanel{
+.bluePanel{
 
-    -fx-background-color : #4070EA ;
+    -fx-background-color: #4070EA ;
+    -fx-background-color: #4070EA;
 }
 
 .heading{

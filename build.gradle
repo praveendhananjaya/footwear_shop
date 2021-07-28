@@ -34,3 +34,13 @@ javafx {
     version = "15.0.1"
     modules = [ 'javafx.controls', 'javafx.fxml' ]
 }
+
+jar {
+    manifest {
+        attributes "Main-Class": "Main"
+    }
+
+    from {
+        configurations.compile.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}

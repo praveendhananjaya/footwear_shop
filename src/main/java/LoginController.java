@@ -34,6 +34,11 @@ public class LoginController extends Rpc {
                 stage.setScene(scene);
                 stage.show();
             }
+        }else {
+            UserId.clear();
+            Password.clear();
+            UserId.setPromptText("incorrect user id");
+            Password.setPromptText("incorrect password");
         }
 
     }

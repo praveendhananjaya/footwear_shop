@@ -12,8 +12,11 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.image.Image;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
+
+import javax.swing.*;
 
 public class Main extends Application {
 
@@ -29,8 +32,9 @@ public class Main extends Application {
 
         Scene scene = new Scene(root);
       //  scene.getStylesheets().add(getClass().getResource("theme.css").toExternalForm());
-
-        primaryStage.setTitle("Hello World");
+        Image imageIcon = new Image("image/footwear.png");
+        primaryStage.setTitle("Login");
+        primaryStage.getIcons().add(imageIcon);
         primaryStage.setScene(scene);
         primaryStage.show();
 
