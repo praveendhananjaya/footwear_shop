@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import java.net.*?>
+<?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.image.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
 
 <AnchorPane prefHeight="596.0" prefWidth="854.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
    <stylesheets>
@@ -20,9 +22,16 @@
       </Pane>
       <Pane id="bluePanel" layoutX="517.0" prefHeight="596.0" prefWidth="343.0">
          <children>
-            <Label id="heading" layoutX="60.0" layoutY="64.0" styleClass="heading" text="Label" />
+            <Label layoutX="60.0" layoutY="55.0" style="-fx-font-size: 36;" styleClass="heading" text="Login" />
             <Label id="text" layoutX="60.0" layoutY="141.0" styleClass="text" text="Hello, let's go started" />
-            <TextArea layoutX="60.0" layoutY="196.0" prefHeight="16.0" prefWidth="248.0" promptText="User ID" />
+            <TextField fx:id="UserId" layoutX="60.0" layoutY="213.0" prefHeight="26.0" prefWidth="201.0" promptText="User ID" styleClass="testbox" />
+            <Line id="line" endX="100.0" layoutX="157.0" layoutY="239.0" startX="-100.0" styleClass="whiteline" />
+            <Line id="line" endX="100.0" layoutX="157.0" layoutY="324.0" startX="-100.0" styleClass="whiteline" />
+            <PasswordField fx:id="Password" layoutX="60.0" layoutY="298.0" prefHeight="26.0" prefWidth="201.0" promptText="Password" styleClass="testbox" />
+            <Label fx:id="login" layoutX="98.0" layoutY="441.0" onMouseClicked="#Login" prefHeight="36.0" prefWidth="118.0" styleClass="mediumtext" text="Login">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets></Label>
          </children>
       </Pane>
    </children>
