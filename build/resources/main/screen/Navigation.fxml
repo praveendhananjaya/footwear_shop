@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="78.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NaviController">
+   <stylesheets>
+      <URL value="@../theme.css" />
+   </stylesheets>
+
+   <children>
+      <VBox prefHeight="200.0" prefWidth="100.0" styleClass="bluePanel">
+         <children>
+            <ImageView fx:id="image1" fitHeight="75.0" fitWidth="100.0" onMouseClicked="#listButton1" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/home.png" />
+               </image>
+            </ImageView>
+
+            <ImageView fx:id="image2" fitHeight="75.0" fitWidth="100.0" onMouseClicked="#listButton2" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/home.png" />
+               </image>
+            </ImageView>
+
+            <ImageView fx:id="image3" fitHeight="75.0" fitWidth="107.0" onMouseClicked="#listButton3" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/home.png" />
+               </image>
+            </ImageView>
+
+            <ImageView fx:id="image4" fitHeight="75.0" fitWidth="107.0" onMouseClicked="#listButton4" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/home.png" />
+               </image>
+            </ImageView>
+
+            <ImageView fx:id="image5" fitHeight="75.0" fitWidth="107.0" onMouseClicked="#listButton5" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../image/home.png" />
+               </image>
+            </ImageView>
+
+         </children>
+      </VBox>
+      <AnchorPane fx:id="MainWindow" prefHeight="475.0" prefWidth="0.0" />
+   </children>
+</HBox>

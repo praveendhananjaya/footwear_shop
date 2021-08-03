@@ -3,17 +3,19 @@ import javafx.scene.control.ListView;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.AnchorPane;
 import security.Rpc ;
 import java.util.ArrayList ;
 
 
-public class MainController {
+public class NaviController {
 
     public ImageView image1;
     public ImageView image2;
     public ImageView image3;
     public ImageView image4;
     public ImageView image5;
+    public AnchorPane MainWindow;
 
     private ArrayList<ImageView> imageView = new ArrayList<ImageView>() ;
 
@@ -38,6 +40,7 @@ public class MainController {
     }
 
     public void listButton1(MouseEvent mouseEvent) {
+
     }
 
     public void listButton2(MouseEvent mouseEvent) {

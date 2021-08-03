@@ -44,6 +44,6 @@
 
          </children>
       </VBox>
-      <AnchorPane prefHeight="475.0" prefWidth="659.0" />
+      <AnchorPane fx:id="MainWindow" prefHeight="475.0" prefWidth="659.0" />
    </children>
 </HBox>

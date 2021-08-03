@@ -2,6 +2,12 @@
 
 }
 
+.SearchBar{
+
+    -fx-font-size:20;
+    -fx-background-radius:50;
+    -fx-text-fill: #4070EA ;
+}
 
 .bluePanel{
 
@@ -39,3 +45,4 @@
     -fx-alignment: center;
 
 }
+

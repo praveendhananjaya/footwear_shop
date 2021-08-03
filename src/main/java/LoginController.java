@@ -23,7 +23,7 @@ public class LoginController extends Rpc {
             System.out.println("login");
             Parent root = null;
             try {
-                root = FXMLLoader.load(getClass().getResource("screen/Main.fxml"));
+                root = FXMLLoader.load(getClass().getResource("screen/billing.fxml"));
             } catch (IOException e) {
                 e.printStackTrace();
             }
