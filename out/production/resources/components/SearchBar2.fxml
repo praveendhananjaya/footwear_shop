@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<?import java.net.URL?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="components.SearchBar"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <stylesheets>
+        <URL value="@../theme.css"/>
+    </stylesheets>
+
+
+    <children>
+        <TextField fx:id="Search" layoutX="66.0" layoutY="8.0" prefHeight="32.0" prefWidth="343.0" promptText="Search"
+                   style="-fx-background-radius: 50; -fx-font-size: 20;" styleClass="SearchBar">
+            <opaqueInsets>
+                <Insets/>
+            </opaqueInsets>
+        </TextField>
+    </children>
+
+</AnchorPane>

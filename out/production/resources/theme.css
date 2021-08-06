@@ -1,0 +1,48 @@
+.root{
+
+}
+
+.SearchBar{
+
+    -fx-font-size:20;
+    -fx-background-radius:50;
+    -fx-text-fill: #4070EA ;
+}
+
+.bluePanel{
+
+    -fx-background-color: #4070EA ;
+    -fx-background-color: #4070EA;
+}
+
+.heading{
+    -fx-font-size: 36;
+    -fx-text-fill: "white";
+}
+
+.text{
+    -fx-font-size: 15;
+    -fx-text-fill: "white";
+}
+
+.whiteline{
+    -fx-stroke: white;
+
+}
+
+.testbox{
+    -fx-font-size: 15;
+    -fx-text-fill: "white";
+    -fx-background-color: transparent;
+}
+
+.mediumtext{
+
+    -fx-font-size: 20 ;
+    -fx-background-color : "white" ;
+    -fx-text-fill: #4070EA ;
+    -fx-background-radius : 20 ;
+    -fx-alignment: center;
+
+}
+

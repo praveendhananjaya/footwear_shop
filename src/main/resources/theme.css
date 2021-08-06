@@ -2,6 +2,11 @@
 
 }
 
+
+#TextFields{
+     -fx-background-color: #4070EA;
+}
+
 .SearchBar{
 
     -fx-font-size:20;
@@ -45,4 +50,3 @@
     -fx-alignment: center;
 
 }
-
